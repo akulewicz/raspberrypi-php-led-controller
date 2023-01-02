@@ -12,18 +12,16 @@
 
     <div class="led-buttons">
         <a href="?action=ron" class="led-button ron">Włącz</a>
-        <a href="?action=roff" class="led-button ron">Wyłącz</a>
+        <a href="?action=roff" class="led-button roff">Wyłącz</a>
 
         <a href="?action=gon" class="led-button gon">Włącz</a>
-        <a href="?action=goff" class="led-button gon">Wyłącz</a>
+        <a href="?action=goff" class="led-button goff">Wyłącz</a>
 
         <a href="?action=bon" class="led-button bon">Włącz</a>
-        <a href="?action=boff" class="led-button bon">Wyłącz</a>
+        <a href="?action=boff" class="led-button boff">Wyłącz</a>
 
         <a href="?action=policeon" class="led-button policeon">Policja</a>
     </div>
 
-
-    
 </body>
 </html>
