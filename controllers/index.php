@@ -1,9 +1,9 @@
 <?php
 
 $config = require base_path('config.php');
-$gpio = $config['gpio'];
+extract($config['gpio']);
 
-$led = new LEDControl($gpio['red'], $gpio['green'], $gpio['blue']);
+$led = new LEDControl($red, $green, $blue);
 
     if(isset($_GET['action'])) {
         
